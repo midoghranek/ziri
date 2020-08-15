@@ -1,0 +1,18 @@
+input.text-input {
+  background-color: $elementsBackground;
+  border-radius: 13px;
+  height: 72px;
+  padding: 0 40px;
+  border: 0;
+  font-size: 25px;
+  font-weight: 700;
+  max-width: 770px;
+  width: 100%;
+  margin-bottom: 38px;
+  &::placeholder {
+    color: $text2;
+  }
+  &:focus {
+    outline: 0;
+  }
+}

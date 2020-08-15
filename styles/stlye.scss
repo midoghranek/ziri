@@ -1,0 +1,22 @@
+// Imports
+@import "./constants/fonts";
+@import "./constants/variables";
+@import "./components/bgShape";
+
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  * {
+    box-sizing: border-box;
+  }
+}
+
+.container {
+  max-width: $boxSize;
+  margin: auto;
+  @import "./containers/header";
+  @import "./containers/hero";
+}
+
+@import "./resposive/index";

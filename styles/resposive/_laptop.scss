@@ -1,0 +1,59 @@
+@media screen and (max-width: 1440px) {
+  .container {
+    max-width: 1200px;
+    header {
+      nav {
+        ul {
+          li {
+            a {
+              font-size: 23px;
+            }
+          }
+        }
+      }
+      .search {
+        width: 450px;
+      }
+    }
+    .hero {
+      h2 {
+        font-size: 50px;
+        line-height: 70px;
+        max-width: 730px;
+      }
+      .hero-inner {
+        .left-box {
+          .find-home {
+            input.text-input {
+              max-width: 550px;
+              font-size: 17px;
+            }
+            .col {
+              max-width: 550px;
+              input {
+                width: 270px !important;
+              }
+              .submit {
+                font-size: 17px;
+              }
+            }
+          }
+        }
+        .right-box {
+          h2 {
+            font-size: 45px;
+            line-height: 60px;
+          }
+          h4 {
+            font-size: 30px;
+            line-height: 45px;
+          }
+          .home-shape {
+            width: 407px;
+            height: 342px;
+          }
+        }
+      }
+    }
+  }
+}

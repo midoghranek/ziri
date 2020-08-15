@@ -1,0 +1,71 @@
+@media screen and (max-width: 425px) {
+  .bg-shape {
+    width: 1780px;
+    height: 1500px;
+    right: -821px;
+    top: -68px;
+  }
+  .container {
+    header {
+      padding: 15px 0;
+      .logo {
+        h1 {
+          font-size: 40px;
+        }
+      }
+      nav {
+        top: 80px;
+      }
+    }
+    .hero {
+      h2 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+      }
+      .hero-inner {
+        .left-box {
+          .find-home {
+            form {
+              display: flex;
+              width: 265px;
+              flex-flow: column;
+              margin: auto;
+              input.text-input {
+                height: 47px;
+                padding: 0 12px;
+                font-size: 15px;
+                margin: auto;
+                margin-bottom: 32px;
+                max-width: 265px;
+              }
+              .col {
+                display: block;
+                input {
+                  max-width: 265px;
+                  width: 100% !important;
+                }
+                .submit {
+                  height: 47px;
+                }
+              }
+            }
+          }
+        }
+        .right-box {
+          h2 {
+            font-size: 20px;
+            line-height: 30px;
+            margin-top: 32px;
+            margin-bottom: 10px;
+          }
+          h4 {
+            font-size: 20px;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+  }
+}

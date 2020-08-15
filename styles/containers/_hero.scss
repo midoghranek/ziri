@@ -1,0 +1,55 @@
+.hero {
+  @import "../components/heroTitle";
+  .hero-inner {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 200px;
+    .left-box {
+      .find-home {
+        @import "../components/input";
+        .col {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          max-width: 770px;
+          input {
+            width: 375px;
+          }
+          .submit {
+            border: 0;
+            cursor: pointer;
+            height: 72px;
+            border-radius: 13px;
+            color: $text3;
+            font-size: 25px;
+            line-height: 30px;
+            font-weight: 700;
+            background: transparent
+              linear-gradient(180deg, $primaryColor 0%, $thirdColor 100%) 0% 0%
+              no-repeat padding-box;
+            &:focus {
+              outline: 0;
+            }
+          }
+        }
+      }
+    }
+    .right-box {
+      text-align: right;
+      h2 {
+        margin: 0;
+        font-size: 75px;
+        line-height: 92px;
+        margin-bottom: 17px;
+        max-width: none;
+      }
+      h4 {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 61px;
+        margin: 0;
+      }
+      @import "../components/homeShape";
+    }
+  }
+}

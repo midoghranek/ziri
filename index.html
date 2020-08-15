@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/stlye.min.css" />
+    <title>Ziri</title>
+  </head>
+  <body>
+    <div class="bg-shape"></div>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <h1>Ziri</h1>
+        </div>
+        <div id="toggle" class="menu-toggle"></div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#">Find your home</a></li>
+            <li><a href="#">Sell your home</a></li>
+            <li><a href="#">My account</a></li>
+          </ul>
+        </nav>
+        <div class="search">
+          <form action="/search" class="search-box" method="get" role="search">
+            <input
+              class="search-input"
+              name="q"
+              placeholder="Quick search"
+              type="text"
+            />
+            <i class="search-icon"
+              ><input type="submit" value="" class="submit"
+            /></i>
+          </form>
+        </div>
+      </header>
+      <main>
+        <div class="hero">
+          <h2>Looking for a home? You are in the right place.</h2>
+          <div class="hero-inner">
+            <div class="left-box">
+              <div class="find-home">
+                <form action="/find">
+                  <input
+                    class="text-input"
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="What is your name?"
+                  />
+                  <input
+                    class="text-input"
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="What is your email?"
+                  />
+                  <div class="col">
+                    <input
+                      class="text-input"
+                      type="text"
+                      name="bedrooms"
+                      id="bedrooms"
+                      placeholder="How many bedrooms?"
+                    />
+                    <input
+                      class="text-input"
+                      type="text"
+                      name="bathrooms"
+                      id="bathrooms"
+                      placeholder="How many bathrooms?"
+                    />
+                  </div>
+                  <div class="col">
+                    <input
+                      class="text-input"
+                      type="password"
+                      name="pass"
+                      id="pass"
+                      placeholder="Create a password."
+                    />
+                    <input
+                      type="submit"
+                      value="Find your home!"
+                      id="submit"
+                      class="submit"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="right-box">
+              <h2>Choose your style.</h2>
+              <h4>Ranch</h4>
+              <div class="home-shape"></div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

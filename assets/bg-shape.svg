@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1966.653" height="1700.76" viewBox="0 0 1966.653 1700.76">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="1966.653" height="1700.76"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.159" x2="0.5" y2="0.883" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b4f1e1"/>
+      <stop offset="1" stop-color="#ffe9c5"/>
+    </linearGradient>
+  </defs>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" class="cls-2">
+    <g transform="translate(-517 403.739)">
+      <path id="Path_14" data-name="Path 14" class="cls-3" d="M1506.576-29.185C1367.742,83.866,1058.339,141.383,990.905,353.6c-36.549,115.022-7.557,370.147-228.081,497.329-253.5,138.587-291.8,255.2-291.8,255.2l1415.55,85.632,551.1-1119.983L1819.945-463.539s-460.137-130.9-355.02,51.567S1645.411-142.236,1506.576-29.185Z" transform="translate(45.98 105.256)"/>
+    </g>
+  </g>
+</svg>
